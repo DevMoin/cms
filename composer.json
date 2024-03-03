@@ -1,0 +1,25 @@
+{
+    "name": "pbdt/cms2",
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/",
+            "Controller\\": "web/Controller"
+        },
+        "files": [
+            "app/code_decor/spacer.php",
+            "app/__CONSTANTS__.php",
+            "app/App.php"
+        ]
+    },
+    "authors": [
+        {
+            "name": "devmoin",
+            "email": "idevmoin@gmail.com"
+        }
+    ],
+    "require": {
+        "symfony/yaml": "^7.0",
+        "symfony/http-foundation": "^7.0",
+        "twig/twig": "^3.0"
+    }
+}

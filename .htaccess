@@ -1,0 +1,9 @@
+RewriteEngine On
+
+# Rewrite rule for assets
+RewriteRule ^@(3rd|third|js|css|images|img|something)/(.*)$ Web/Assets/$1/$2 [L]
+
+# Your existing rewrite rules
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)$ index.php?q=$1 [L,QSA]

@@ -1,0 +1,4 @@
+/vendor
+/load.env.php
+/app/tmp/*
+/app/config/db.php

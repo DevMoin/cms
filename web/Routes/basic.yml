@@ -1,0 +1,19 @@
+home:
+  path: /
+  controller: Controller\HomeController
+  action: index
+
+article:
+  path: /article/{id}
+  controller: Controller\HomeController
+  action: index
+
+about:
+  path: /about
+  controller: Controller\AboutController
+  action: index
+
+contact:
+  path: /contact
+  controller: Controller\ContactController
+  action: index
